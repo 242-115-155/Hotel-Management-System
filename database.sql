@@ -3,8 +3,8 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-CREATE DATABASE IF NOT EXISTS iwp;
-USE iwp;
+CREATE DATABASE IF NOT EXISTS hotel_management_system;
+USE hotel_management_system;
 
 -- --------------------------------------------------------
 
@@ -49,7 +49,7 @@ INSERT INTO `booked_hist` (`phone`, `name`, `idproof`, `room_type`, `checkin`, `
 (123, 'abc', '123', 'Single bed', '2019-10-09', '2019-10-17', 8, 'false', 'false', 'false', 'false', 'false', 'false', 1000, 10013),
 (123, 'abc', '123', 'Single bed', '2019-10-09', '2019-10-12', 3, 'false', 'true', 'true', 'false', 'false', 'false', 2350, 10014),
 (123, 'abc', '123', 'Single bed', '2019-10-17', '2019-10-19', 2, 'false', 'false', 'false', 'false', 'false', 'false', 1000, 10016),
-(1234, 'Vaibhav', '1234', 'Single bed', '2019-11-08', '2019-11-10', 2, 'false', 'true', 'true', 'false', 'false', 'false', 2900, 10019);
+(1234, 'maliha', '1234', 'Single bed', '2019-11-08', '2019-11-10', 2, 'false', 'true', 'true', 'false', 'false', 'false', 2900, 10019);
 
 -- Table structure for `book_id`
 CREATE TABLE `book_id` (
@@ -111,7 +111,7 @@ CREATE TABLE `temp_session` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `temp_session` (`phone`, `password`, `name`, `email`, `idproof`, `dob`) VALUES
-(1234, '12345', 'Vaibhav', 'vaibhav@gmail.com', '1234', '2000-01-01');
+(1234, '12345', 'maliha', 'maliha@gmail.com', '1234', '2000-01-01');
 
 CREATE TABLE `user_login` (
   `phone` INT NOT NULL,
@@ -125,7 +125,7 @@ CREATE TABLE `user_login` (
 
 INSERT INTO `user_login` (`phone`, `password`, `name`, `email`, `idproof`, `dob`) VALUES
 (123, '1234', 'abc', 'abc@gmail.com', '123', '2000-01-01'),
-(1234, '12345', 'Vaibhav', 'vaibhav@gmail.com', '1234', '2000-01-01');
+(1234, '12345', 'maliha', 'maliha@gmail.com', '1234', '2000-01-01');
 
 CREATE TABLE `user_room_book` (
   `phone` INT NOT NULL,
