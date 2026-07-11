@@ -95,6 +95,25 @@ http://localhost/Hotel-Management-System/
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](https://github.com/242-115-155/Hotel-Management-System/blob/main/screenshot/home.png)
+
+### Image Gallery
+
+![Image Gallery](https://github.com/242-115-155/Hotel-Management-System/blob/main/screenshot/image_gallery.png)
+
+### Admin Page
+
+![Admin Page](https://github.com/242-115-155/Hotel-Management-System/blob/main/screenshot/adminpage.png)
+
+### User Info
+
+![User Info](https://github.com/242-115-155/Hotel-Management-System/blob/main/screenshot/userpage.png)
+
+---
 
 ## 🚀 Future Improvements
 
